@@ -59,3 +59,26 @@ This project implements a digital version of the popular board game "Settlers of
 ### DevelopmentCard Classes
 - **Base Class (DevelopmentCard)**: Methods like `getType()`, `getTypeName()`, `isUsed()`, `useDevelopmentCard()`, etc., common functionalities for all development cards.
 - **Derived Classes (KnightCard, MonopolyCard, RoadBuildingCard, VictoryPointCard, YearOfPlentyCard)**: Specific methods and functionalities based on the type of development card.
+
+## Running the Program
+To compile and run the program, you can use the provided Makefile with the following commands in your terminal:
+
+1. **make clean**: Clean up all the compiled files.
+    ```sh
+    make clean
+    ```
+
+2. **make**: Compile the entire program.
+    ```sh
+    make
+    ```
+
+3. **make catan**: Run a demo of the game live.
+    ```sh
+    make catan
+    ```
+
+4. **make test**: Run the tests for the program.
+    ```sh
+    make test
+    ```
